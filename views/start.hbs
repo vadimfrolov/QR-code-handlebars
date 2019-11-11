@@ -1,0 +1,49 @@
+<nav>
+  <div class="nav-wrapper">
+    <div class="col s12">
+      <a href="/" class="breadcrumb">Homepage</a>
+      <a href="/start" class="breadcrumb">Encrypt message</a>
+
+    </div>
+  </div>
+</nav>
+
+<blockquote>
+  Here you can convert your text to QR code
+</blockquote>
+
+
+<div class="divider"></div>
+<div class="section">
+  <div class="row">
+    <form class="col s12" action="/makeqr" id="newpost">
+      <div class="row">
+
+
+        <div class="input-field col s6">
+          <input type="text" name="post" class="form-control" id="post" placeholder="please enter message">
+        </div>
+        <button class="btn waves-effect waves-light pink lighten-4" type="submit" name="action">Submit
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+    </form>
+
+    <img src="" id="qrcode" class="qrcode" alt="qrcode" style="display: none; width: 400px">
+
+
+
+  </div>
+</div>
+
+
+
+{{!-- <form action="/makeqr" id="newpost">
+
+<input type="text" name="post" class="form-control" id="post" placeholder="please enter message">
+
+
+<button type="submit" name="action">Submit</button>
+
+
+</form> --}}

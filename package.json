@@ -1,0 +1,41 @@
+{
+  "name": "qrcleartest",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "claudia-bot-builder": "^4.5.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "huh": "^2.0.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "morgan": "~1.9.1",
+    "nodemon": "^1.19.4",
+    "qr-image": "^3.2.0",
+    "qrcode": "^1.4.2",
+    "qrcode-generator": "^1.4.4",
+    "slack-node": "^0.1.8",
+    "slackbots": "^1.2.0"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadimfrolov/qrcleartest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vadimfrolov/qrcleartest/issues"
+  },
+  "homepage": "https://github.com/vadimfrolov/qrcleartest#readme",
+  "description": ""
+}
