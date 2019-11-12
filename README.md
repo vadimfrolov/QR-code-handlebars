@@ -1,5 +1,5 @@
 # Description:
-Resposive and mobile friendly design for app that creates qr codes from any phrase
+Responsive and mobile friendly design for app that creates qr codes from any phrase
 
 ### Demo ###
 https://qrcodenoslack.herokuapp.com/
